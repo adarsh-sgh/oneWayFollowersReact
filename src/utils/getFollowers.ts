@@ -11,7 +11,7 @@ export async function getFollowList(userId: string, type = "followers") {
   );
   const data = await response.json();
   const followList: any = {};
-  data.forEach(e => {
+  data.forEach((e: any) => {
     followList[e.login] = true;
   });
   console.log(Object.keys(followList).length);
