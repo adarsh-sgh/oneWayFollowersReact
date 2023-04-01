@@ -4,6 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+.star{
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+}
 
 .logo {
   height: 6em;

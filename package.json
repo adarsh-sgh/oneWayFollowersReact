@@ -1,5 +1,5 @@
 {
-  "name": "onewayfollowers-react",
+  "name": "onewayfollowersreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
     "sass": "^1.57.1"
   },
   "devDependencies": {
